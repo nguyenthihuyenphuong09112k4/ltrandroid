@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#3761DD"
+        android:text="Lập trình sự kiện"
+        android:textColor="#F6F2F2"
+        android:textSize="34sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số A: " />
+
+            <EditText
+                android:id="@+id/SoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số B" />
+
+            <EditText
+                android:id="@+id/SoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1F4FE1"
+        android:text="Kết Quả "
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng" />
+
+    <Button
+        android:id="@+id/btnHieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiệu" />
+
+    <Button
+        android:id="@+id/btnTich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tích" />
+
+    <Button
+        android:id="@+id/btnThuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thương" />
+
+    <Button
+        android:id="@+id/btnUCLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ước chung lớn nhất" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát " />
+</LinearLayout>
